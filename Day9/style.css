@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: kalpurushregular;
+}
+body{
+    background: url(Assets/images/background/bg_main.gif) scroll center top;
+    background-repeat: no-repeat;
+}
+.contain{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* Header part start */
+header{
+    background-color: #9E5BBA;
+    height: 30px;
+    border-bottom: 2px solid darkred;
+    color: white;
+    font-size: 14px;
+}
+.header_left{
+    line-height: 30px;
+    
+}
+.header_right{
+    line-height: 30px;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    font-size: 13px;
+}
+.header_right p{
+    padding-right: 10px;
+    font-size: 13px;
+}
+/* Headr part end */
+/* logo part start */
+.logo{
+    height: 100px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 40px;
+}
+.logo_search input{
+    width: 80%;
+    height: 30px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(59, 59, 59, 0.441);
+    font-size: 12px;
+}
+.logo_search button{
+    height: 30px;
+    width: 45px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: .2px solid rgba(59, 59, 59, 0.441);
+}
+.logo1{
+    padding: 8px;
+    border-right: 1px solid #eee;
+}
+.logo2{
+    font-size: 12px;
+    color: rgb(0, 0, 147);
+    padding: 8px;
+}
+.logo2 p{
+    margin: 0;
+}
+.logo2 img{
+    margin-top: 5px;
+}
+/* logo part end */
+/* hero part start */
+.banner img{
+    padding: 8px;
+    border: 2px solid darkred;
+    height: 320px;
+}
+.slider img{
+    height: 230px;
+}
+.slider{
+    margin-top: 20px;
+}
+
+.dropdown_tab{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(244, 227, 227, 0.642);
+}
+.tab a{
+    display: block;
+    text-align: center;
+    color: green;
+    font-size: 12px;
+    text-decoration: none;
+}
+.tab a:hover{
+    color: green;
+}
+/* hero part end */
+/* notice part start */
+.notice h1{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(9, 64, 141);
+}
+.notice li{
+    list-style: none;
+    padding: 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid rgb(8, 162, 8);
+}
+.notice li a{
+    color: black;
+    text-decoration: none;
+}
+.notice li a:hover{
+    color: green;
+}
+.notice ul{
+    padding: 0;
+}
+.sokol{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    background: linear-gradient(180deg,rgb(167, 148, 148),rgb(112, 101, 101));
+}
+.sokol:hover{
+    color: white;
+    background: linear-gradient(360deg,rgb(167, 148, 148),rgb(112, 101, 101));
+}
+/* notice part end */
+.side_img{
+    height: 52px;
+}
